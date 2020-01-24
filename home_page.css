@@ -1,0 +1,197 @@
+body
+{
+	background-color:#ECE9D8;
+}
+
+#div1
+{
+	background-color:black;
+	padding-bottom:30px;
+	padding-left:10px;
+	max-height:400px;
+	min-width:400px;
+	color:white;
+}
+#header
+{	
+	display:inline-block;
+	margin:0;
+	padding:15px;
+	font-size:50px;
+	max-height:200px;
+	max-width:400px;
+	color:white;
+	display:float-right;
+}
+.header:hover
+{
+	color:blue;
+}
+ul li{
+	
+	display:inline-block;
+	
+}
+#nav
+{
+	display:inline-block;
+	float:right;
+	padding:20px;
+	padding-right:50px;
+	color:white;
+	font-size:20px;
+	max-height:200px;
+	min-width:300px;
+}
+ .anc
+{
+	color:white;
+	padding: 4px 7px;
+	text-decoration: none;
+}
+.active
+{
+	color:white;
+}
+#div2 h1 span
+{
+	color:blue;
+}
+#div2
+{
+	margin-top:15px;
+	background-color:white;
+	padding: 1px 20px  1px 20px;
+	
+}
+#div2 h1
+{
+	font-size:50px;
+	text-align:center;
+}
+#div2 h2
+{
+	font-size:35px;
+	color:#D0D1CC;
+	text-align:center;
+}
+.sec1
+{
+	font-size:20px;
+	padding:30px;
+	border-color:#CECECE;
+	border-top-style: dotted;
+	border-bottom-style:dotted;
+	
+}
+.sec2{
+	
+	background-color: #00AEEE;
+	width: 33.33%;
+	margin: 20px;
+	text-align: center;
+	padding:10px;
+	
+}
+.sec2 h2
+{
+	font-size: 30px;
+	line-height:45px;
+	border-bottom-style:solid;
+}
+.sec2 p{
+	font-size:20px;
+	line-height:35px;
+}
+.linn
+{
+	margin-top:20px;
+	border-top-style:dotted;
+	border-top-color:#CECECE;
+}
+.linn2
+{
+	border-right-style:dotted;
+	border-color:#CECECE;
+	float:center;
+	padding:10px;
+}
+.flex
+{
+	display:flex;
+	flex-wrap: nowrap;
+	
+}
+.sec3{ 
+	color:black;
+	width: 50%;
+	margin: 20px;
+	text-align: center;
+	padding:20px;
+	
+}
+.fg
+{
+	font-size:40px;
+	margin:0;
+	padding:0;
+	color:#000000;
+}
+.sec3 a{
+	text-decoration:none;
+	}
+	
+.fltimg img
+{
+	float:left;
+	width:170px;
+	height:100px;
+	margin-right:15px;
+}
+
+.sec4
+{
+	
+	height:530px;
+	width:700px;
+}
+
+div.gallery{
+    border: 1px solid #26382D;
+}
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width:250px;
+    height: 140px;
+}
+* {
+    box-sizing: inherit;
+}
+
+.responsive {
+
+    padding: 0;
+    float: left;
+    width: 29.33%;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+footer
+{
+	margin:0;
+	padding:20px; 
+	background-color:black;
+}
+footer h3{
+	
+	text-align:center;
+	color:White;
+	
+}
